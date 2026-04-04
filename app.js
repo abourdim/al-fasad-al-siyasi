@@ -234,6 +234,96 @@ const CARDS = [
     ar:{title:'نحو مجتمع نظيف',desc:'المجتمع النظيف يبدأ من فرد نظيف. كل واحد منا مسؤول عن مقاومة الفساد في موقعه.',quran:'وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ وَالْمُؤْمِنُونَ',quranRef:'التوبة ٩: ١٠٥',lesson:'كن أنت التغيير الذي تريد أن تراه في مجتمعك'},
     en:{title:'Toward a Clean Society',desc:'A clean society starts with a clean individual. Each one of us is responsible for fighting corruption in their own position.',quran:'"And say: Work, for God will see your work, and His Messenger, and the believers"',quranRef:'At-Tawbah 9:105',lesson:'Be the change you want to see in your society'},
     fr:{title:'Vers une Société Propre',desc:'Une société propre commence par un individu propre. Chacun de nous est responsable de combattre la corruption à son niveau.',quran:'« Et dis : Œuvrez, car Dieu verra vos œuvres, ainsi que Son Messager et les croyants »',quranRef:'At-Tawbah 9:105',lesson:'Soyez le changement que vous voulez voir dans votre société'}
+  },
+  {
+    id:21, emoji:'🏫',
+    ar:{title:'الفساد في التعليم',desc:'فساد التعليم من أخطر أنواع الفساد لأنه يصنع أجيالاً جاهلة خاضعة. حين يُفسد المنهج يُفسد العقل.',quran:'هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ',quranRef:'الزمر ٣٩: ٩',lesson:'إصلاح التعليم هو إصلاح المستقبل'},
+    en:{title:'Corruption in Education',desc:'Educational corruption is among the most dangerous because it produces ignorant, submissive generations. When the curriculum is corrupted, the mind is corrupted.',quran:'"Are those who know equal to those who do not know?"',quranRef:'Az-Zumar 39:9',lesson:'Reforming education means reforming the future'},
+    fr:{title:'La Corruption dans l\'Éducation',desc:'La corruption éducative est parmi les plus dangereuses car elle produit des générations ignorantes et soumises. Quand le programme est corrompu, l\'esprit est corrompu.',quran:'« Sont-ils égaux, ceux qui savent et ceux qui ne savent pas ? »',quranRef:'Az-Zumar 39:9',lesson:'Réformer l\'éducation, c\'est réformer l\'avenir'}
+  },
+  {
+    id:22, emoji:'📺',
+    ar:{title:'الفساد في الإعلام',desc:'الإعلام الفاسد يحوّل الحق باطلاً والباطل حقاً. يصنع أبطالاً مزيفين ويطمس صوت المظلومين.',quran:'وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ وَتَكْتُمُوا الْحَقَّ وَأَنتُمْ تَعْلَمُونَ',quranRef:'البقرة ٢: ٤٢',lesson:'الإعلام النزيه مرآة المجتمع الصادقة'},
+    en:{title:'Corruption in Media',desc:'Corrupt media turns truth into falsehood and falsehood into truth. It creates fake heroes and silences the voice of the oppressed.',quran:'"And do not mix truth with falsehood or conceal the truth while you know it"',quranRef:'Al-Baqarah 2:42',lesson:'Honest media is society\'s true mirror'},
+    fr:{title:'La Corruption dans les Médias',desc:'Les médias corrompus transforment la vérité en mensonge et le mensonge en vérité. Ils créent de faux héros et étouffent la voix des opprimés.',quran:'« Et ne mêlez pas la vérité au mensonge et ne cachez pas la vérité alors que vous savez »',quranRef:'Al-Baqarah 2:42',lesson:'Les médias honnêtes sont le vrai miroir de la société'}
+  },
+  {
+    id:23, emoji:'🛡️',
+    ar:{title:'حماية المبلّغين عن الفساد',desc:'من يكشف الفساد بطل لا مجرم. حمايته واجب شرعي وقانوني. المجتمع الذي يعاقب كاشف الفساد يحمي الفاسدين.',quran:'وَالَّذِينَ إِذَا أَصَابَهُمُ الْبَغْيُ هُمْ يَنتَصِرُونَ',quranRef:'الشورى ٤٢: ٣٩',lesson:'حماية المبلّغ حماية للمجتمع كله'},
+    en:{title:'Whistleblower Protection',desc:'Those who expose corruption are heroes, not criminals. Protecting them is a religious and legal duty. A society that punishes whistleblowers protects the corrupt.',quran:'"And those who, when tyranny strikes them, they defend themselves"',quranRef:'Ash-Shura 42:39',lesson:'Protecting whistleblowers protects the entire society'},
+    fr:{title:'La Protection des Lanceurs d\'Alerte',desc:'Ceux qui dénoncent la corruption sont des héros, pas des criminels. Les protéger est un devoir religieux et légal. Une société qui punit les lanceurs d\'alerte protège les corrompus.',quran:'« Et ceux qui, lorsqu\'ils sont frappés par la tyrannie, se défendent »',quranRef:'Ash-Shura 42:39',lesson:'Protéger les lanceurs d\'alerte protège toute la société'}
+  },
+  {
+    id:24, emoji:'🔍',
+    ar:{title:'آليات الشفافية',desc:'الشفافية عدو الفساد الأول. حين تكون الحسابات مكشوفة والقرارات علنية يتراجع الفساد. الرقابة الشعبية أقوى من كل الأجهزة.',quran:'إِنَّ اللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا',quranRef:'النساء ٤: ١',lesson:'الشفافية نور يطرد ظلمة الفساد'},
+    en:{title:'Transparency Mechanisms',desc:'Transparency is corruption\'s primary enemy. When accounts are open and decisions are public, corruption retreats. Popular oversight is stronger than all agencies.',quran:'"Indeed, God is ever a Watcher over you"',quranRef:'An-Nisa 4:1',lesson:'Transparency is a light that drives away the darkness of corruption'},
+    fr:{title:'Les Mécanismes de Transparence',desc:'La transparence est le premier ennemi de la corruption. Quand les comptes sont ouverts et les décisions publiques, la corruption recule. Le contrôle populaire est plus fort que toutes les agences.',quran:'« Dieu est certes un Observateur sur vous »',quranRef:'An-Nisa 4:1',lesson:'La transparence est une lumière qui chasse les ténèbres de la corruption'}
+  },
+  {
+    id:25, emoji:'🌟',
+    ar:{title:'قصص نجاح الإصلاح',desc:'التاريخ الإسلامي مليء بقصص إصلاح ناجحة. عمر بن عبد العزيز حوّل الخلافة من استبداد إلى عدل في سنتين. الإصلاح ممكن دائماً.',quran:'إِنَّ اللَّهَ لَا يُغَيِّرُ مَا بِقَوْمٍ حَتَّىٰ يُغَيِّرُوا مَا بِأَنفُسِهِمْ',quranRef:'الرعد ١٣: ١١',lesson:'الإصلاح يبدأ بإرادة صادقة وعمل مستمر'},
+    en:{title:'Reform Success Stories',desc:'Islamic history is full of successful reform stories. Umar ibn Abd al-Aziz transformed the caliphate from tyranny to justice in two years. Reform is always possible.',quran:'"Indeed, God will not change the condition of a people until they change what is in themselves"',quranRef:'Ar-Ra\'d 13:11',lesson:'Reform begins with sincere will and continuous work'},
+    fr:{title:'Histoires de Réussite des Réformes',desc:'L\'histoire islamique regorge d\'histoires de réformes réussies. Umar ibn Abd al-Aziz a transformé le califat de la tyrannie à la justice en deux ans. La réforme est toujours possible.',quran:'« Dieu ne change pas la condition d\'un peuple tant qu\'ils ne changent pas ce qui est en eux-mêmes »',quranRef:'Ar-Ra\'d 13:11',lesson:'La réforme commence par une volonté sincère et un travail continu'}
+  },
+  {
+    id:26, emoji:'🏦',
+    ar:{title:'الفساد المالي والبنوك',desc:'النظام المالي الفاسد يسهّل غسل الأموال وتهريبها. الشفافية المالية والرقابة المستقلة أساس محاربة الفساد المالي.',quran:'وَلَا تَأْكُلُوا أَمْوَالَكُم بَيْنَكُم بِالْبَاطِلِ',quranRef:'البقرة ٢: ١٨٨',lesson:'المال العام أمانة لا غنيمة'},
+    en:{title:'Financial Corruption and Banks',desc:'A corrupt financial system facilitates money laundering and smuggling. Financial transparency and independent oversight are the foundation of fighting financial corruption.',quran:'"And do not consume one another\'s wealth unjustly"',quranRef:'Al-Baqarah 2:188',lesson:'Public funds are a trust, not spoils'},
+    fr:{title:'La Corruption Financière et les Banques',desc:'Un système financier corrompu facilite le blanchiment d\'argent et la contrebande. La transparence financière et la surveillance indépendante sont le fondement de la lutte contre la corruption.',quran:'« Et ne mangez pas vos biens entre vous injustement »',quranRef:'Al-Baqarah 2:188',lesson:'Les fonds publics sont un dépôt, pas un butin'}
+  },
+  {
+    id:27, emoji:'⚖️',
+    ar:{title:'العدالة الانتقائية',desc:'أخطر أنواع الفساد القضائي هو العدالة الانتقائية: تطبيق القانون على الفقراء والضعفاء وتعطيله أمام الأقوياء.',quran:'يَا دَاوُودُ إِنَّا جَعَلْنَاكَ خَلِيفَةً فِي الْأَرْضِ فَاحْكُم بَيْنَ النَّاسِ بِالْحَقِّ',quranRef:'ص ٣٨: ٢٦',lesson:'القانون إما أن يطبّق على الجميع أو لا يُحترم من أحد'},
+    en:{title:'Selective Justice',desc:'The most dangerous type of judicial corruption is selective justice: applying the law to the poor and weak while suspending it before the powerful.',quran:'"O David, indeed We have made you a successor upon the earth, so judge between the people in truth"',quranRef:'Sad 38:26',lesson:'The law must either apply to all or it will be respected by none'},
+    fr:{title:'La Justice Sélective',desc:'Le type le plus dangereux de corruption judiciaire est la justice sélective : appliquer la loi aux pauvres et aux faibles tout en la suspendant devant les puissants.',quran:'« Ô David, Nous avons fait de toi un successeur sur terre, juge donc entre les gens en vérité »',quranRef:'Sad 38:26',lesson:'La loi doit soit s\'appliquer à tous, soit elle ne sera respectée par personne'}
+  },
+  {
+    id:28, emoji:'🌐',
+    ar:{title:'الفساد العابر للحدود',desc:'الفساد لم يعد محلياً. الأموال المنهوبة تُهرّب عبر الحدود وتُخفى في بنوك دولية. محاربة الفساد تحتاج تعاوناً دولياً.',quran:'وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَىٰ وَلَا تَعَاوَنُوا عَلَى الْإِثْمِ وَالْعُدْوَانِ',quranRef:'المائدة ٥: ٢',lesson:'مكافحة الفساد مسؤولية عالمية مشتركة'},
+    en:{title:'Cross-Border Corruption',desc:'Corruption is no longer local. Looted funds are smuggled across borders and hidden in international banks. Fighting corruption requires international cooperation.',quran:'"And cooperate in righteousness and piety, and do not cooperate in sin and aggression"',quranRef:'Al-Maidah 5:2',lesson:'Fighting corruption is a shared global responsibility'},
+    fr:{title:'La Corruption Transfrontalière',desc:'La corruption n\'est plus locale. Les fonds pillés sont transférés à travers les frontières et cachés dans des banques internationales. Combattre la corruption nécessite une coopération internationale.',quran:'« Et coopérez dans la piété et la vertu, et ne coopérez pas dans le péché et l\'agression »',quranRef:'Al-Maidah 5:2',lesson:'La lutte contre la corruption est une responsabilité mondiale partagée'}
+  },
+  {
+    id:29, emoji:'🗳️',
+    ar:{title:'الفساد الانتخابي',desc:'تزوير الانتخابات وشراء الأصوات من أشد أنواع الفساد. الشورى الحقيقية تعني أن يختار الناس من يمثلهم بحرية.',quran:'وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ',quranRef:'الشورى ٤٢: ٣٨',lesson:'الشورى الحقيقية لا تكون مع التزوير'},
+    en:{title:'Electoral Corruption',desc:'Election rigging and vote buying are among the worst types of corruption. True consultation means people freely choose who represents them.',quran:'"And whose affair is determined by consultation among themselves"',quranRef:'Ash-Shura 42:38',lesson:'True consultation cannot coexist with fraud'},
+    fr:{title:'La Corruption Électorale',desc:'La fraude électorale et l\'achat de voix sont parmi les pires types de corruption. La vraie consultation signifie que les gens choisissent librement qui les représente.',quran:'« Et dont l\'affaire est consultation entre eux »',quranRef:'Ash-Shura 42:38',lesson:'La vraie consultation ne peut coexister avec la fraude'}
+  },
+  {
+    id:30, emoji:'📱',
+    ar:{title:'التكنولوجيا ومكافحة الفساد',desc:'التكنولوجيا الحديثة سلاح ذو حدين: يمكن أن تُستخدم لكشف الفساد من خلال الشفافية الرقمية، أو لتعزيزه من خلال المراقبة والقمع.',quran:'وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ',quranRef:'التوبة ٩: ١٠٥',lesson:'استخدم التكنولوجيا لنشر الحق لا لقمعه'},
+    en:{title:'Technology and Fighting Corruption',desc:'Modern technology is a double-edged sword: it can be used to expose corruption through digital transparency, or to strengthen it through surveillance and repression.',quran:'"And say: Work, for God will see your work"',quranRef:'At-Tawbah 9:105',lesson:'Use technology to spread truth, not to suppress it'},
+    fr:{title:'La Technologie et la Lutte Contre la Corruption',desc:'La technologie moderne est une arme à double tranchant : elle peut être utilisée pour exposer la corruption par la transparence numérique, ou pour la renforcer par la surveillance et la répression.',quran:'« Et dis : Œuvrez, car Dieu verra vos œuvres »',quranRef:'At-Tawbah 9:105',lesson:'Utilisez la technologie pour répandre la vérité, pas pour la supprimer'}
+  },
+  {
+    id:31, emoji:'🎭',
+    ar:{title:'الفساد الأخلاقي',desc:'الفساد لا يقتصر على المال والسياسة. الفساد الأخلاقي — الكذب والنفاق والتملق — هو الأرضية التي ينمو عليها كل فساد آخر.',quran:'يَا أَيُّهَا الَّذِينَ آمَنُوا لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ',quranRef:'الصف ٦١: ٢',lesson:'إصلاح الأخلاق هو إصلاح كل شيء'},
+    en:{title:'Moral Corruption',desc:'Corruption is not limited to money and politics. Moral corruption — lying, hypocrisy, and flattery — is the ground on which all other corruption grows.',quran:'"O you who believe, why do you say what you do not do?"',quranRef:'As-Saff 61:2',lesson:'Reforming morals is reforming everything'},
+    fr:{title:'La Corruption Morale',desc:'La corruption ne se limite pas à l\'argent et à la politique. La corruption morale — mensonge, hypocrisie et flatterie — est le terrain sur lequel toute autre corruption pousse.',quran:'« Ô vous qui croyez, pourquoi dites-vous ce que vous ne faites pas ? »',quranRef:'As-Saff 61:2',lesson:'Réformer les moeurs, c\'est réformer tout'}
+  },
+  {
+    id:32, emoji:'🏥',
+    ar:{title:'الفساد في القطاع الصحي',desc:'حين يُفسد القطاع الصحي يموت الفقراء لعدم قدرتهم على العلاج. الصحة حق لكل إنسان لا سلعة تُباع.',quran:'وَمَنْ أَحْيَاهَا فَكَأَنَّمَا أَحْيَا النَّاسَ جَمِيعًا',quranRef:'المائدة ٥: ٣٢',lesson:'صحة الإنسان أمانة لا تجارة'},
+    en:{title:'Corruption in Healthcare',desc:'When the healthcare sector is corrupted, the poor die because they cannot afford treatment. Health is a right for every person, not a commodity to be sold.',quran:'"And whoever saves one, it is as if they have saved mankind entirely"',quranRef:'Al-Maidah 5:32',lesson:'Human health is a trust, not a business'},
+    fr:{title:'La Corruption dans la Santé',desc:'Quand le secteur de la santé est corrompu, les pauvres meurent faute de pouvoir se soigner. La santé est un droit pour chaque personne, pas une marchandise.',quran:'« Et quiconque sauve une vie, c\'est comme s\'il avait sauvé l\'humanité entière »',quranRef:'Al-Maidah 5:32',lesson:'La santé humaine est un dépôt, pas un commerce'}
+  },
+  {
+    id:33, emoji:'📖',
+    ar:{title:'القرآن ومحاربة الفساد',desc:'القرآن مليء بالآيات التي تحذر من الفساد وتأمر بالإصلاح. قصص الأنبياء كلها صراع بين الإصلاح والفساد.',quran:'وَإِذَا تَوَلَّىٰ سَعَىٰ فِي الْأَرْضِ لِيُفْسِدَ فِيهَا',quranRef:'البقرة ٢: ٢٠٥',lesson:'القرآن كتاب إصلاح وعدل'},
+    en:{title:'The Quran and Fighting Corruption',desc:'The Quran is filled with verses that warn against corruption and command reform. The stories of the prophets are all a struggle between reform and corruption.',quran:'"And when he turns away, he strives throughout the land to cause corruption therein"',quranRef:'Al-Baqarah 2:205',lesson:'The Quran is a book of reform and justice'},
+    fr:{title:'Le Coran et la Lutte Contre la Corruption',desc:'Le Coran est rempli de versets qui mettent en garde contre la corruption et ordonnent la réforme. Les histoires des prophètes sont toutes une lutte entre réforme et corruption.',quran:'« Et quand il tourne le dos, il s\'efforce de semer le désordre sur terre »',quranRef:'Al-Baqarah 2:205',lesson:'Le Coran est un livre de réforme et de justice'}
+  },
+  {
+    id:34, emoji:'👨‍⚖️',
+    ar:{title:'القضاء في الإسلام',desc:'القضاء المستقل العادل من أهم مؤسسات الدولة الإسلامية. القاضي لا يخضع لأحد إلا لله والحق.',quran:'وَأَنِ احْكُم بَيْنَهُم بِمَا أَنزَلَ اللَّهُ وَلَا تَتَّبِعْ أَهْوَاءَهُمْ',quranRef:'المائدة ٥: ٤٩',lesson:'القاضي العادل في ظل الله يوم القيامة'},
+    en:{title:'Judiciary in Islam',desc:'An independent and just judiciary is among the most important institutions of the Islamic state. The judge submits to no one but God and truth.',quran:'"And judge between them by what God has revealed and do not follow their inclinations"',quranRef:'Al-Maidah 5:49',lesson:'The just judge will be in God\'s shade on the Day of Judgment'},
+    fr:{title:'La Justice en Islam',desc:'Un pouvoir judiciaire indépendant et juste est parmi les institutions les plus importantes de l\'État islamique. Le juge ne se soumet à personne sauf à Dieu et à la vérité.',quran:'« Et juge entre eux selon ce que Dieu a révélé et ne suis pas leurs passions »',quranRef:'Al-Maidah 5:49',lesson:'Le juge juste sera à l\'ombre de Dieu au Jour du Jugement'}
+  },
+  {
+    id:35, emoji:'🌍',
+    ar:{title:'الفساد والتنمية',desc:'الفساد يقتل التنمية. كل ريال يُسرق من المال العام هو مدرسة لم تُبنَ ومستشفى لم يُفتح وطريق لم يُعبَّد.',quran:'ظَهَرَ الْفَسَادُ فِي الْبَرِّ وَالْبَحْرِ بِمَا كَسَبَتْ أَيْدِي النَّاسِ',quranRef:'الروم ٣٠: ٤١',lesson:'لا تنمية حقيقية مع الفساد'},
+    en:{title:'Corruption and Development',desc:'Corruption kills development. Every riyal stolen from public funds is a school unbuilt, a hospital unopened, and a road unpaved.',quran:'"Corruption has appeared throughout the land and sea by reason of what the hands of people have earned"',quranRef:'Ar-Rum 30:41',lesson:'There is no real development with corruption'},
+    fr:{title:'La Corruption et le Développement',desc:'La corruption tue le développement. Chaque riyal volé des fonds publics est une école non construite, un hôpital non ouvert et une route non pavée.',quran:'« La corruption est apparue sur terre et en mer à cause de ce que les mains des gens ont acquis »',quranRef:'Ar-Rum 30:41',lesson:'Il n\'y a pas de vrai développement avec la corruption'}
   }
 ];
 
@@ -268,6 +358,21 @@ const REFORM_DATA = [
     ar:{title:'حماية المبلّغين',problem:'من يكشف الفساد يتعرض للانتقام والاضطهاد',solution:'حماية كل من يكشف الفساد قانونياً واجتماعياً — فهو يقوم بواجب شرعي',verse:'وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى الْخَيْرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنكَرِ',verseRef:'آل عمران ٣: ١٠٤'},
     en:{title:'Protecting Whistleblowers',problem:'Those who expose corruption face retaliation and persecution',solution:'Legally and socially protect everyone who exposes corruption — they are fulfilling a religious duty',verse:'"And let there be a group among you who invite to good, enjoin right, and forbid wrong"',verseRef:'Aal Imran 3:104'},
     fr:{title:'Protéger les Lanceurs d\'Alerte',problem:'Ceux qui dénoncent la corruption font face aux représailles et à la persécution',solution:'Protéger juridiquement et socialement ceux qui dénoncent la corruption — ils accomplissent un devoir religieux',verse:'« Que soit issue de vous une communauté qui appelle au bien, ordonne le convenable et interdit le blâmable »',verseRef:'Aal Imran 3:104'}
+  },
+  { emoji:'📡',
+    ar:{title:'الإعلام والشفافية',problem:'الإعلام الموجّه يخفي الفساد ويجمّل وجه الفاسدين',solution:'دعم الإعلام المستقل وحرية الوصول للمعلومات هو أساس الشفافية',verse:'يَا أَيُّهَا الَّذِينَ آمَنُوا كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ',verseRef:'النساء ٤: ١٣٥'},
+    en:{title:'Media and Transparency',problem:'Directed media hides corruption and beautifies the faces of the corrupt',solution:'Supporting independent media and freedom of information access is the foundation of transparency',verse:'"O you who believe, be persistently standing firm in justice, witnesses for God"',verseRef:'An-Nisa 4:135'},
+    fr:{title:'Les Médias et la Transparence',problem:'Les médias dirigés cachent la corruption et embellissent le visage des corrompus',solution:'Soutenir les médias indépendants et la liberté d\'accès à l\'information est le fondement de la transparence',verse:'« Ô vous qui croyez, soyez fermes dans la justice, témoins pour Dieu »',verseRef:'An-Nisa 4:135'}
+  },
+  { emoji:'🏛️',
+    ar:{title:'استقلال القضاء',problem:'القضاء الخاضع للسلطة لا يحكم بالعدل بل بالأوامر',solution:'ضمان استقلالية القضاء وحمايته من التدخل السياسي — العدل لا يتجزأ',verse:'وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُوا بِالْعَدْلِ',verseRef:'النساء ٤: ٥٨'},
+    en:{title:'Judicial Independence',problem:'A judiciary subservient to power does not rule by justice but by orders',solution:'Guarantee judicial independence and protect it from political interference — justice is indivisible',verse:'"And when you judge between people, judge with justice"',verseRef:'An-Nisa 4:58'},
+    fr:{title:'L\'Indépendance Judiciaire',problem:'Un pouvoir judiciaire soumis au pouvoir ne juge pas par la justice mais par les ordres',solution:'Garantir l\'indépendance judiciaire et la protéger de l\'ingérence politique — la justice est indivisible',verse:'« Et quand vous jugez entre les gens, jugez avec équité »',verseRef:'An-Nisa 4:58'}
+  },
+  { emoji:'🎓',
+    ar:{title:'التعليم ضد الفساد',problem:'المناهج التعليمية لا تعلّم النزاهة ومقاومة الفساد',solution:'إدخال مفاهيم النزاهة والمساءلة والحوكمة الرشيدة في المناهج من الصغر',verse:'اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ',verseRef:'العلق ٩٦: ١'},
+    en:{title:'Education Against Corruption',problem:'Educational curricula do not teach integrity and resistance to corruption',solution:'Introduce concepts of integrity, accountability, and good governance into curricula from a young age',verse:'"Read in the name of your Lord who created"',verseRef:'Al-Alaq 96:1'},
+    fr:{title:'L\'Éducation Contre la Corruption',problem:'Les programmes éducatifs n\'enseignent pas l\'intégrité et la résistance à la corruption',solution:'Introduire les concepts d\'intégrité, de responsabilité et de bonne gouvernance dans les programmes dès le jeune âge',verse:'« Lis au nom de ton Seigneur qui a créé »',verseRef:'Al-Alaq 96:1'}
   }
 ];
 
@@ -280,7 +385,16 @@ const HABITS = [
   { emoji:'🤝', ar:{label:'ساعد شخصاً بدون مقابل',source:'التكافل الاجتماعي'}, en:{label:'Help someone without expecting return',source:'Social solidarity'}, fr:{label:'Aider quelqu\'un sans attendre de retour',source:'Solidarité sociale'} },
   { emoji:'📚', ar:{label:'تعلم شيئاً عن حقوقك',source:'التعليم'}, en:{label:'Learn something about your rights',source:'Education'}, fr:{label:'Apprendre quelque chose sur vos droits',source:'Éducation'} },
   { emoji:'🕌', ar:{label:'صلاة في وقتها',source:'العبادة'}, en:{label:'Pray on time',source:'Worship'}, fr:{label:'Prier à l\'heure',source:'Adoration'} },
-  { emoji:'💡', ar:{label:'فكرة إصلاحية واحدة',source:'المبادرة'}, en:{label:'One reform idea',source:'Initiative'}, fr:{label:'Une idée de réforme',source:'Initiative'} }
+  { emoji:'💡', ar:{label:'فكرة إصلاحية واحدة',source:'المبادرة'}, en:{label:'One reform idea',source:'Initiative'}, fr:{label:'Une idée de réforme',source:'Initiative'} },
+  { emoji:'📺', ar:{label:'تابع خبراً عن محاربة الفساد',source:'الوعي'}, en:{label:'Follow anti-corruption news',source:'Awareness'}, fr:{label:'Suivre les nouvelles anti-corruption',source:'Sensibilisation'} },
+  { emoji:'🛡️', ar:{label:'ادعم شخصاً يكافح الفساد',source:'التضامن'}, en:{label:'Support someone fighting corruption',source:'Solidarity'}, fr:{label:'Soutenir quelqu\'un qui combat la corruption',source:'Solidarité'} },
+  { emoji:'🎓', ar:{label:'علّم طفلاً قيمة الأمانة',source:'التربية'}, en:{label:'Teach a child the value of honesty',source:'Education'}, fr:{label:'Enseigner à un enfant la valeur de l\'honnêteté',source:'Éducation'} },
+  { emoji:'🤲', ar:{label:'ادعُ لنصرة المظلومين',source:'الدعاء'}, en:{label:'Pray for the victory of the oppressed',source:'Supplication'}, fr:{label:'Priez pour la victoire des opprimés',source:'Invocation'} },
+  { emoji:'🔍', ar:{label:'ابحث عن قصة نجاح إصلاحية',source:'التعلم من التجارب'}, en:{label:'Research a reform success story',source:'Learning from experiences'}, fr:{label:'Recherchez une histoire de réussite réformiste',source:'Apprendre des expériences'} },
+  { emoji:'⚖️', ar:{label:'كن عادلاً في حكمك على الناس اليوم',source:'العدالة اليومية'}, en:{label:'Be just in your judgment of people today',source:'Daily justice'}, fr:{label:'Soyez juste dans votre jugement des gens aujourd\'hui',source:'Justice quotidienne'} },
+  { emoji:'📖', ar:{label:'قراءة آية عن العدل والإنصاف',source:'القرآن والإصلاح'}, en:{label:'Read a verse about justice and fairness',source:'Quran and reform'}, fr:{label:'Lire un verset sur la justice et l\'équité',source:'Coran et réforme'} },
+  { emoji:'🌱', ar:{label:'ازرع فكرة إصلاحية في محيطك',source:'بذور التغيير'}, en:{label:'Plant a reform idea in your circle',source:'Seeds of change'}, fr:{label:'Plantez une idée de réforme dans votre entourage',source:'Graines du changement'} },
+  { emoji:'🕌', ar:{label:'ادعُ الله في صلاتك لإصلاح الأمة',source:'الدعاء والإصلاح'}, en:{label:'Pray to God in your prayer for the Ummah\'s reform',source:'Supplication and reform'}, fr:{label:'Priez Dieu dans votre prière pour la réforme de la Oumma',source:'Invocation et réforme'} }
 ];
 
 // ═══════════════ QUIZ ═══════════════
@@ -292,7 +406,16 @@ const QUIZ = [
   { ar:'هل تعلّم أطفالك قيم الأمانة والعدل؟', en:'Do you teach your children values of honesty and justice?', fr:'Enseignez-vous à vos enfants les valeurs d\'honnêteté et de justice ?' },
   { ar:'هل تشارك في الحياة العامة والقرارات المجتمعية؟', en:'Do you participate in public life and community decisions?', fr:'Participez-vous à la vie publique et aux décisions communautaires ?' },
   { ar:'هل تعتقد أن الإصلاح ممكن في مجتمعك؟', en:'Do you believe reform is possible in your society?', fr:'Croyez-vous que la réforme est possible dans votre société ?' },
-  { ar:'هل تتابع أخبار المحاسبة ومكافحة الفساد؟', en:'Do you follow accountability and anti-corruption news?', fr:'Suivez-vous les nouvelles sur la responsabilité et la lutte contre la corruption ?' }
+  { ar:'هل تتابع أخبار المحاسبة ومكافحة الفساد؟', en:'Do you follow accountability and anti-corruption news?', fr:'Suivez-vous les nouvelles sur la responsabilité et la lutte contre la corruption ?' },
+  { ar:'هل تعتقد أن الشفافية في المال العام واجب ديني قبل أن يكون قانونياً؟', en:'Do you believe transparency in public funds is a religious duty before a legal one?', fr:'Croyez-vous que la transparence des fonds publics est un devoir religieux avant d\'être légal ?' },
+  { ar:'هل تدعم حماية من يكشف الفساد في مجتمعك؟', en:'Do you support protecting those who expose corruption in your community?', fr:'Soutenez-vous la protection de ceux qui dénoncent la corruption dans votre communauté ?' },
+  { ar:'هل تعتقد أن إصلاح التعليم هو المفتاح الأول لمحاربة الفساد؟', en:'Do you believe reforming education is the first key to fighting corruption?', fr:'Croyez-vous que réformer l\'éducation est la première clé pour combattre la corruption ?' },
+  { ar:'هل تعتقد أن الفساد الأخلاقي أخطر من الفساد المالي؟', en:'Do you believe moral corruption is more dangerous than financial corruption?', fr:'Croyez-vous que la corruption morale est plus dangereuse que la corruption financière ?' },
+  { ar:'هل تستخدم التكنولوجيا في نشر الوعي بمخاطر الفساد؟', en:'Do you use technology to spread awareness about the dangers of corruption?', fr:'Utilisez-vous la technologie pour sensibiliser aux dangers de la corruption ?' },
+  { ar:'هل تؤمن بأن الإصلاح التدريجي أفضل من الثورات العنيفة؟', en:'Do you believe gradual reform is better than violent revolutions?', fr:'Croyez-vous que la réforme graduelle est meilleure que les révolutions violentes ?' },
+  { ar:'هل تقرأ القرآن كمنهج إصلاحي لمحاربة الفساد؟', en:'Do you read the Quran as a reformist methodology to fight corruption?', fr:'Lisez-vous le Coran comme une méthodologie réformiste pour combattre la corruption ?' },
+  { ar:'هل تعتقد أن الفساد في القطاع الصحي من أخطر أنواع الفساد؟', en:'Do you believe corruption in healthcare is among the most dangerous types?', fr:'Croyez-vous que la corruption dans la santé est parmi les types les plus dangereux ?' },
+  { ar:'هل تؤمن بأن القضاء المستقل ركيزة لمحاربة الفساد؟', en:'Do you believe an independent judiciary is a pillar of fighting corruption?', fr:'Croyez-vous qu\'un pouvoir judiciaire indépendant est un pilier de la lutte contre la corruption ?' }
 ];
 
 // ═══════════════ DUAS ═══════════════
@@ -302,7 +425,9 @@ const DUAS = [
   { ar:{label:'دعاء للحاكم العادل',text:'اللَّهُمَّ وَفِّقْ وُلَاةَ أُمُورِنَا لِمَا تُحِبُّ وَتَرْضَى',tr:'يا رب اهدِ حكامنا للعدل'}, en:{label:'Dua for Just Rulers',text:'Allahumma waffiq wulata umoorina lima tuhibbu wa tarda',tr:'O God, guide our leaders to what You love and are pleased with'}, fr:{label:'Dua pour des Dirigeants Justes',text:'Allahumma waffiq wulata umoorina lima tuhibbu wa tarda',tr:'Ô Dieu, guide nos dirigeants vers ce que Tu aimes et agrées'} },
   { ar:{label:'دعاء الإصلاح',text:'اللَّهُمَّ أَصْلِحْ أَحْوَالَ الْمُسْلِمِينَ وَوَحِّدْ كَلِمَتَهُمْ عَلَى الْحَقِّ',tr:'يا رب أصلح أمة محمد'}, en:{label:'Dua for Reform',text:'Allahumma aslih ahwal al-muslimeen wa wahhid kalimatahum alal haqq',tr:'O God, reform the affairs of Muslims and unite them upon truth'}, fr:{label:'Dua pour la Réforme',text:'Allahumma aslih ahwal al-muslimeen wa wahhid kalimatahum alal haqq',tr:'Ô Dieu, réforme les affaires des musulmans et unis-les sur la vérité'} },
   { ar:{label:'دعاء النصر على الظالمين',text:'رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَانصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ',tr:'البقرة ٢: ٢٥٠'}, en:{label:'Dua for Victory Over Oppressors',text:'Rabbana afrigh alayna sabran wa thabbit aqdamana wansurna alal qawmil kafireen',tr:'Our Lord, pour upon us patience and plant firmly our feet and give us victory (2:250)'}, fr:{label:'Dua pour la Victoire sur les Oppresseurs',text:'Rabbana afrigh alayna sabran wa thabbit aqdamana wansurna alal qawmil kafireen',tr:'Notre Seigneur, déverse sur nous la patience, affermis nos pieds et donne-nous la victoire (2:250)'} },
-  { ar:{label:'دعاء حسن الخاتمة',text:'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',tr:'البقرة ٢: ٢٠١'}, en:{label:'Dua for Good End',text:'Rabbana atina fid-dunya hasanatan wa fil akhirati hasanatan wa qina adhab an-nar',tr:'Our Lord, give us good in this world and good in the Hereafter and protect us from the Fire (2:201)'}, fr:{label:'Dua pour une Bonne Fin',text:'Rabbana atina fid-dunya hasanatan wa fil akhirati hasanatan wa qina adhab an-nar',tr:'Notre Seigneur, donne-nous le bien ici-bas et le bien dans l\'au-delà et protège-nous du Feu (2:201)'} }
+  { ar:{label:'دعاء حسن الخاتمة',text:'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',tr:'البقرة ٢: ٢٠١'}, en:{label:'Dua for Good End',text:'Rabbana atina fid-dunya hasanatan wa fil akhirati hasanatan wa qina adhab an-nar',tr:'Our Lord, give us good in this world and good in the Hereafter and protect us from the Fire (2:201)'}, fr:{label:'Dua pour une Bonne Fin',text:'Rabbana atina fid-dunya hasanatan wa fil akhirati hasanatan wa qina adhab an-nar',tr:'Notre Seigneur, donne-nous le bien ici-bas et le bien dans l\'au-delà et protège-nous du Feu (2:201)'} },
+  { ar:{label:'دعاء الأمانة',text:'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخِيَانَةِ فَإِنَّهَا بِئْسَتِ الْبِطَانَةُ',tr:'اللهم أعوذ بك من الخيانة والفساد'}, en:{label:'Dua for Trustworthiness',text:'Allahumma inni a\'udhu bika min al-khiyanah fa innaha bi\'sat al-bitanah',tr:'O God, I seek refuge in You from betrayal, for it is the worst inner trait'}, fr:{label:'Dua pour la Fidélité',text:'Allahumma inni a\'udhu bika min al-khiyanah fa innaha bi\'sat al-bitanah',tr:'Ô Dieu, je cherche refuge en Toi contre la trahison, car c\'est le pire trait intérieur'} },
+  { ar:{label:'دعاء النزاهة',text:'اللَّهُمَّ طَهِّرْ قَلْبِي مِنَ النِّفَاقِ وَعَمَلِي مِنَ الرِّيَاءِ',tr:'اللهم اجعلني نزيهاً في السر والعلن'}, en:{label:'Dua for Integrity',text:'Allahumma tahhir qalbi min an-nifaq wa amali min ar-riya',tr:'O God, purify my heart from hypocrisy and my deeds from showing off'}, fr:{label:'Dua pour l\'Intégrité',text:'Allahumma tahhir qalbi min an-nifaq wa amali min ar-riya',tr:'Ô Dieu, purifie mon coeur de l\'hypocrisie et mes actes de l\'ostentation'} }
 ];
 
 // ═══════════════ STATE ═══════════════

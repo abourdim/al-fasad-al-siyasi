@@ -117,7 +117,7 @@ const T = {
 const CARDS = [
   {
     id:1, emoji:'⚖️',
-    ar:{title:'العدل أساس الملك',desc:'العدل هو الركيزة الأولى لأي حكم ناجح. بدون عدل تسقط الدول مهما بلغت قوتها.',quran:'إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ',quranRef:'النحل ١٦: ٩٠',lesson:'العدل ليس خياراً بل واجب على كل حاكم ومحكوم'},
+    ar:{title:'العدل أساس الملك',desc:'يشخّص الغزالي الفساد السياسي كسرطان دمّر الحضارة الإسلامية عبر القرون. العدل هو الركيزة الأولى لأي حكم ناجح. بدون عدل تسقط الدول مهما بلغت قوتها — لا نهضة تحت ظل ظالم.',quran:'إِنَّ اللَّهَ يَأْمُرُ بِالْعَدْلِ وَالْإِحْسَانِ',quranRef:'النحل ١٦: ٩٠',lesson:'العدل ليس خياراً بل واجب على كل حاكم ومحكوم'},
     en:{title:'Justice Is the Foundation of Rule',desc:'Justice is the first pillar of any successful governance. Without it, nations fall no matter how powerful they are.',quran:'"Indeed, God commands justice and good conduct"',quranRef:'An-Nahl 16:90',lesson:'Justice is not optional but a duty for every ruler and citizen'},
     fr:{title:'La Justice Est le Fondement du Pouvoir',desc:'La justice est le premier pilier de toute gouvernance réussie. Sans elle, les nations s\'effondrent peu importe leur puissance.',quran:'« Certes, Dieu commande la justice et la bienfaisance »',quranRef:'An-Nahl 16:90',lesson:'La justice n\'est pas optionnelle mais un devoir pour chaque gouvernant et citoyen'}
   },

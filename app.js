@@ -547,7 +547,7 @@ function renderHome() {
   const dayIdx = new Date().getDate() % CARDS.length;
   const c = CARDS[dayIdx];
   const cd = c[lang];
-  document.getElementById('dailyCard').innerHTML = `
+  (document.getElementById('dailyCard')||{}).innerHTML= `
     <div class="daily-label">${t.dailyLabel}</div>
     <div class="daily-title">${cd.title}</div>
     <div class="daily-body">${cd.desc}</div>
@@ -560,7 +560,7 @@ function renderHome() {
     {icon:'🤔',tab:'quiz',title:t.tabQuiz,desc:lang==='ar'?'اختبر وعيك':lang==='fr'?'Testez-vous':'Test yourself'},
     {icon:'📖',tab:'about',title:t.tabAbout,desc:lang==='ar'?'عن الكتاب والمؤلف':lang==='fr'?'Le livre et l\'auteur':'Book & author'},
   ];
-  document.getElementById('homeGrid').innerHTML = sections.map(s => `
+  (document.getElementById('homeGrid')||{}).innerHTML= sections.map(s => `
     <div class="home-card" onclick="document.querySelector('[data-tab=${s.tab}]').click()">
       <span class="hc-icon">${s.icon}</span>
       <div class="hc-title">${s.title}</div>
@@ -601,7 +601,7 @@ function renderCards() {
       </div>
     </div>`;
   }).join('');
-  document.getElementById('cardsContainer').innerHTML = searchBar + cards;
+  (document.getElementById('cardsContainer')||{}).innerHTML= searchBar + cards;
 }
 
 function filterCards(query) {
@@ -629,7 +629,7 @@ async function shareCard(idx) {
 // ═══════════════ RENDER: REFORM ═══════════════
 function renderReform() {
   const t = T[lang];
-  document.getElementById('reformContainer').innerHTML = REFORM_DATA.map(r => {
+  (document.getElementById('reformContainer')||{}).innerHTML= REFORM_DATA.map(r => {
     const d = r[lang];
     return `
     <div class="anxiety-card scroll-reveal">
@@ -664,7 +664,7 @@ function renderHabits() {
   }
   const streak = getStreak();
   const streakHTML = streak > 0 ? `<div class="streak-badge">🔥 ${streak} ${T[lang].streakMsg}</div>` : '';
-  document.getElementById('habitsContainer').innerHTML = HABITS.map((h, i) => {
+  (document.getElementById('habitsContainer')||{}).innerHTML= HABITS.map((h, i) => {
     const d = h[lang];
     const isDone = habitsState.done.includes(i);
     return `
@@ -747,7 +747,7 @@ function launchConfetti() {
 // ═══════════════ RENDER: QUIZ ═══════════════
 function renderQuiz() {
   const t = T[lang];
-  document.getElementById('quizContainer').innerHTML = QUIZ.map((q, i) => `
+  (document.getElementById('quizContainer')||{}).innerHTML= QUIZ.map((q, i) => `
     <div class="quiz-question scroll-reveal" id="quiz-q-${i}">
       <div class="quiz-q-text">${i+1}. ${q[lang]}</div>
       <div class="quiz-options">
@@ -845,7 +845,7 @@ function renderAbout() {
     }
   };
   const a = about[lang];
-  document.getElementById('aboutContainer').innerHTML = `
+  (document.getElementById('aboutContainer')||{}).innerHTML= `
     <div class="about-disclaimer"><div class="about-disclaimer-title">${a.disclaimerTitle}</div><p>${a.disclaimer}</p></div>
     <div class="about-author"><span class="about-author-icon">📚</span><div class="about-author-info"><div class="about-author-name">${a.authorName}</div><div class="about-author-dates">${a.authorDates}</div><div class="about-author-bio">${a.authorBio}</div></div></div>
     <div class="about-section"><div class="about-section-title">${a.bookTitle}</div><p class="about-text">${a.bookDesc}</p></div>
@@ -876,14 +876,14 @@ function renderHelp() {
       {title:'⌨️ Raccourcis',body:'Utilisez les flèches pour naviguer entre les cartes. Échap pour fermer les panneaux.'},
     ]
   };
-  document.getElementById('helpBody').innerHTML = help[lang].map(h => `
+  (document.getElementById('helpBody')||{}).innerHTML= help[lang].map(h => `
     <div class="help-item"><div class="help-item-title">${h.title}</div><div>${h.body}</div></div>
   `).join('');
 }
 
 // ═══════════════ RENDER: DUAS ═══════════════
 function renderDuas() {
-  document.getElementById('duaPanelContent').innerHTML = DUAS.map(d => {
+  (document.getElementById('duaPanelContent')||{}).innerHTML= DUAS.map(d => {
     const dd = d[lang];
     return `<div class="dua-item"><div class="dua-item-label">${dd.label}</div><div class="dua-item-ar">${dd.text}</div><div class="dua-item-tr">${dd.tr}</div></div>`;
   }).join('');
